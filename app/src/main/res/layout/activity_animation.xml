@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation_test.property_animation.AnimationActivity">
+
+    <ImageButton
+        android:id="@+id/anim_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu"
+        android:contentDescription="@null"
+        android:tag="Menu"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/anim_menu_beach"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu_beach"
+        android:contentDescription="@null"
+        android:tag="Beach"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/anim_menu_data"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu_data"
+        android:contentDescription="@null"
+        android:tag="Data"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/anim_menu_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu_home"
+        android:contentDescription="@null"
+        android:tag="Home"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/anim_menu_msg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu_msg"
+        android:contentDescription="@null"
+        android:tag="Message"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/anim_menu_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/anim_menu_setting"
+        android:contentDescription="@null"
+        android:tag="Setting"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+</RelativeLayout>

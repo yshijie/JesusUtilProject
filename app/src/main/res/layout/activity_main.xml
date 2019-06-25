@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/main_btn_share_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_share_card"/>
+
+    <Button
+        android:id="@+id/main_btn_animation_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animation_test"/>
+
+    <Button
+        android:id="@+id/main_btn_transition_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transition"/>
+
+    <Button
+        android:id="@+id/main_btn_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shortcuts"/>
+</LinearLayout>

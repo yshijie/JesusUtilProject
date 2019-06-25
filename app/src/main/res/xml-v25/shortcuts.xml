@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="staticId"
+        android:enabled="true"
+        android:icon="@drawable/anim_menu"
+        android:shortcutDisabledMessage="@string/static_disabled_message"
+        android:shortcutLongLabel="@string/static_shortcut_long_label"
+        android:shortcutShortLabel="@string/static_shortcut_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.jesus_young.jesusutilproject.shortcuts.ShortcutsActivity"
+            android:targetPackage="com.jesus_young.jesusutilproject"/>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
