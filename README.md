@@ -8,6 +8,6 @@
 
 ### shortcuts -- Android桌面快捷方式
 
-[博客地址：Shortcut -- Android桌面快捷方式](!https://www.yuque.com/jesus_yangshijie/ruafsa/huldpp)
+博客地址：[Shortcut -- Android桌面快捷方式](https://www.yuque.com/jesus_yangshijie/ruafsa/huldpp)
 
 ### transition --
